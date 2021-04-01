@@ -6,8 +6,9 @@
 sudo docker run --name pgdb -p 5433:5432 -e POSTGRES_PASSWORD=p -d postgres
 ```
 
-- Install [PostgREST]()
-  - Download `tar.xz` file from: https://github.com/PostgREST/postgrest/releases/latest
+## Install [PostgREST]()
+
+- Download `tar.xz` file from: https://github.com/PostgREST/postgrest/releases/latest
 
 ```bash
 tar xJf postgrest-<version>-<platform>.tar.xz
@@ -77,18 +78,10 @@ Example Config File:
   # raw-media-types="image/png, image/jpg"
 ```
 
-Windows:
-
-```
-
-```
-
 ## Requirements:
 
 - libpq
 - PostgrSQL C Library
-
-
 
 ## Create a Database for API
 
